@@ -10,19 +10,22 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 70px;
+    padding: 7rem;
     background-color: #FFD700;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .header .container-header nav ul{
     display: flex;
-    font-size: 20px;
+    font-size: 2rem;
     gap: 1rem;
     font-weight: 700;
 }
 
 .header .container-header nav ul li a{
-    padding: 10px;
+    padding: 1rem;
     background-color: #FF0000;
     border-radius: 50%;
     color: black;
@@ -35,18 +38,19 @@ body{
 }
 
 .header .container-header .titulo{
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .main{
     background-color: aqua;
+    margin-top: 17.6rem;
 }
 
 .main .titulo-2{
     display: flex;
     justify-content: center;
-    font-size: 15px;
-    padding: 30px;
+    font-size: 1.5rem;
+    padding: 3rem;
 }
 
 .container-image{
@@ -61,8 +65,8 @@ body{
 }
 
 .container-image .conteudo p{
-    max-width: 500px;
-    margin-left: 52px;
+    max-width: 50rem;
+    margin-left: 5.2rem;
 }
 
 .container-image p{
